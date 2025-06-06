@@ -1,0 +1,38 @@
+{
+  "name": "berlin-wastewater-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard for analyzing SARS-CoV-2 data in Berlin's wastewater",
+  "main": "script.js",
+  "author": "Alexandra von Criegern",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-header": "^3.1.1",
+    "globals": "^16.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "add-header": "node scripts/insert-header.js ."
+  },
+  "keywords": [
+    "d3",
+    "data-visualization",
+    "wastewater",
+    "sewage",
+    "berlin",
+    "covid19",
+    "sars-cov-2",
+    "virus-load",
+    "time-series",
+    "dashboard",
+    "open-data",
+    "environmental-data",
+    "public-health",
+    "javascript",
+    "epidemiology",
+    "wastewater-epidemiology"
+  ]
+}

@@ -1,0 +1,3068 @@
+{
+  "statusCode": 200,
+  "headers": {
+      "Cache-Control": "no-cache",
+      "Store-Control": "no-store",
+      "Access-Control-Allow-Origin": "*"
+  },
+  "body": [
+      {
+          "sample_number": "12300001",
+          "measuring_point": "Flughafen BER",
+          "extraction_date": "01.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "157000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "172000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "184500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "229500"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "229000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "175250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "33000000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "35500000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "37000000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "39",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.4",
+                          "result_value": "23",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "38",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300274",
+          "measuring_point": "Flughafen BER",
+          "extraction_date": "08.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "36500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "37750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "37500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "18825"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "17675"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "21400"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "94500000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "89500000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "95750000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "83",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "17",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300275",
+          "measuring_point": "Flughafen BER",
+          "extraction_date": "15.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "42250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "45000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "35750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "32000"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "29250"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "29000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "56250000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "60750000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "55500000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "90",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "10",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300276",
+          "measuring_point": "Flughafen BER",
+          "extraction_date": "22.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "29750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "20225"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "27500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "16700"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "20150"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "26500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "41500000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "26500000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "37250000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "72",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "28",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300277",
+          "measuring_point": "Flughafen BER",
+          "extraction_date": "29.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "12000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "18675"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "16800"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "17750"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "19875"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "12875"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "59500000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "84500000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "83000000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300000",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "01.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "127250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "130500"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "122750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "171250"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "192750"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "188250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "32000000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "32750000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "33750000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300218",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "03.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "53250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "58750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "53000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "37750"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "36750"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "36500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "40750000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "41500000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "39750000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300219",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "05.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "12000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "16050"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "13600"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "10675"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "11900"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "10850"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "9800000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "9850000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "11125000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300220",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "08.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "17375"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "17400"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "22250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "13575"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "13950"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "11700"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "16375000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "22225000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "23125000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300221",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "10.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "15550"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "23750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "29500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "13000"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "21400"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "11775"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "12450000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "19700000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "17700000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300222",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "12.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "39500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "24350"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "44000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "33750"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "35000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "30250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "50000000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "36000000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "46750000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "41",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "59",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300223",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "15.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "18475"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "17900"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "23950"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "10225"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "5500"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "8400"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "25250000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "30250000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "24500000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300224",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "17.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "21800"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "22575"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "22675"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "15200"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "8900"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "9825"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "13825000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10675000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "15200000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300225",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "19.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "18375"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "18900"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "36250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "19150"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "18100"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "15700"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "20600000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "20850000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "41000000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "67",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "33",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300226",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "22.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "15600"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "12900"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "22525"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "11075"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "11050"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "11200"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "13050000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10325000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "18975000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300227",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "24.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "33500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "33000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "25250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "16400"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "17700"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "15600"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "18750000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "21100000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "23475000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "83",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "17",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300228",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "26.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "76000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "77000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "76500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "36000"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "40000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "36500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "23425000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "24175000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "24600000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "85",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "15",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300229",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "29.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "89500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "87750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "80500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "49500"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "46000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "40500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "19375000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "18950000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "17700000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "12300230",
+          "measuring_point": "Klärwerk Ruhleben",
+          "extraction_date": "31.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "77750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "53500"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "47250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "18400"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "29250"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "22175"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "30250000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "22225000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "21100000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "77",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "23",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300000",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "01.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "109250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "111000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "121500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "99750"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "89000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "130250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "11050000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10600000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "13025000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300085",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "03.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "66750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "49250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "57500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "35250"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "32750"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "32250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "23000000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "15275000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "19025000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300086",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "05.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "10000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "11050"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "9300"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "6350"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "8800"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "7325"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "8875000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "11550000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "9025000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300087",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "08.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "31000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "29250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "31250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "18875"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "12100"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "16525"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "13375000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "16300000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "15350000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300088",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "10.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "36000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "34500"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "39000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "31250"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "29250"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "29750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "20250000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "19600000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "21625000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300089",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "12.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "7025"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "20400"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "26250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "3925"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "3925"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "3925"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "9650000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10250000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "12200000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300090",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "15.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "15400"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "19950"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "19150"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "7000"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "8725"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "3925"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "11925000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "12575000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "12975000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300091",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "17.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "19800"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "23175"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "22250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "11875"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "9525"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "9925"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "5475000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "5200000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "6050000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300092",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "19.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "59750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "27500"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "43750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "29250"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "29750"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "27250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "36750000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "20475000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "33000000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "78",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "22",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300093",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "22.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "37750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "41750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "22900"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "25250"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "18425"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "14200"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "32250000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "33750000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "18200000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "72",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "28",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300094",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "24.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "62000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "70000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "47750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "26750"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "21075"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "31500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "9700000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10600000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "8050000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300095",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "26.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "85750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "107250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "86000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "50250"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "47000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "51000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "17425000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "21750000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "18050000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "84",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "16",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300096",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "29.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "82250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "72250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "88250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "33500"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "39250"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "42250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "12200000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10450000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "15225000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "62300097",
+          "measuring_point": "Klärwerk Schönerlinde",
+          "extraction_date": "31.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "87500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "75500"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "49000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "32750"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "33000"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "31500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "36250000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "31750000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "17075000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "50",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "50",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300000",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "01.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "26500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "28000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "27750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "16875"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "13750"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "11400"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "13025000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "17275000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "16900000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300261",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "03.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "30750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "25750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "29500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "12400"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "17350"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "14950"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "18825000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "16575000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "15500000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300262",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "05.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "13400"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "12600"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "14450"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "9850"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "9350"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "10275"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "6550000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "7025000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "6575000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300263",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "08.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "7125"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "11050"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "12275"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "5575"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "4750"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "7225"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "2925000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "4100000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "4100000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300264",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "10.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "6775"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "13225"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "12075"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "6925"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "7375"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "3900"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "2800000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "5050000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "3825000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300265",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "12.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "27250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "34250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "23025"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "14875"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "10650"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "14800"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "9850000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "10650000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "8550000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300266",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "15.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "52000"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "32000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "32000"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "11375"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "18025"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "16175"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "5625000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "4175000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "3550000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300267",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "17.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "10550"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "10700"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "14900"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "8700"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "5225"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "7125"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "2625000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "2195000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "2600000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300268",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "19.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "24875"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "18475"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "20250"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "15600"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "19775"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "14775"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "17400000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "15125000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "15525000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300269",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "22.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "21625"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "21250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "30500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "10075"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "13175"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "14200"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "3725000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "3400000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "3775000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300270",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "24.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "21500"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "23250"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "29750"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "8775"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "7075"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "5725"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "10775000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "9625000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "11050000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300271",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "26.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "77250"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "77000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "51500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "29000"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "31500"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "33500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "9300000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "11075000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "8050000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "78",
+                          "unit": "%"
+                      },
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.5",
+                          "result_value": "22",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300272",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "29.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "24450"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "34000"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "24500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "14925"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "12475"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "11950"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "3525000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "4300000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "3425000"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "sample_number": "42300273",
+          "measuring_point": "Klärwerk Waßmannsdorf",
+          "extraction_date": "31.01.2023",
+          "results": [
+              {
+                  "name": "RT_PCR_1 N1 (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_a_liter",
+                          "result": "36750"
+                      },
+                      {
+                          "name": "copy_number_2_a_liter",
+                          "result": "30750"
+                      },
+                      {
+                          "name": "copy_number_3_a_liter",
+                          "result": "44500"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_2 E-gene (SARS-CoV-2)",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_b_liter",
+                          "result": "21575"
+                      },
+                      {
+                          "name": "copy_number_2_b_liter",
+                          "result": "23200"
+                      },
+                      {
+                          "name": "copy_number_3_b_liter",
+                          "result": "16175"
+                      }
+                  ]
+              },
+              {
+                  "name": "RT_PCR_3 Replicase gene of pepper mild mottle virus PMMoV",
+                  "parameter": [
+                      {
+                          "name": "copy_number_1_c_liter",
+                          "result": "4150000"
+                      },
+                      {
+                          "name": "copy_number_2_c_liter",
+                          "result": "4375000"
+                      },
+                      {
+                          "name": "copy_number_3_c_liter",
+                          "result": "3925000"
+                      }
+                  ]
+              },
+              {
+                  "name": "NGS Illumina",
+                  "parameter": [
+                      {
+                          "name": "omicron",
+                          "pango_lineage": "BA.2",
+                          "result_value": "100",
+                          "unit": "%"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}
