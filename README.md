@@ -9,11 +9,11 @@ It serves as a demonstrator and a starting point for working with open API data,
 
 ## Features
 
-- Interactive time series visualization of viral loads at multiple sampling points
-- Dropdown selection to choose different measuring stations
-- Unified Y-axis scaling for better comparison
-- Dynamic loading of JSON demo data from the Berlin Hygiene Monitor
-- Tooltip showing detailed measurement values on hover
+- Interactive time series visualization of viral loads at multiple sampling points  
+- Dropdown menu for selecting measuring stations  
+- Unified Y-axis scaling for consistent data comparison  
+- Dynamic data loading via Fetch API from a custom Express backend  
+- Modular JavaScript structure with clear separation of concerns  
 
 ---
 
@@ -33,11 +33,17 @@ It serves as a demonstrator and a starting point for working with open API data,
    git clone https://github.com/plutonik-a/berlin-wastewater-dashboard.git
    ```
 2.	Install dependencies:
-   ```
+   ```bash
    npm install
    ```
-3.	Start a local HTTP server (e.g. Live Server extension in VSCode)
-4.	Open index.html in your browser and use the dashboard
+3. Start the local Express server
+   ```bash
+   npm start
+   ```
+4.	Open your browser at
+   ```bash
+   http://localhost:3000
+   ```
 
 ## Data Source
 

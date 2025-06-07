@@ -3,6 +3,7 @@
  * Copyright (c) 2025 Alexandra von Criegern
  * Licensed under the ISC License.
  */
+
 import fs from "fs";
 import path from "path";
 
@@ -51,7 +52,7 @@ function addHeaderToFile(filePath) {
   if (ext === ".html") {
     newContent = `<!--\n${header.replace(/\n/g, "\n ")}\n-->\n\n${content}`;
   } else if (ext === ".css" || ext === ".js") {
-    newContent = header + "\n" + content;
+    newContent = header + "\n\n" + content;
   } else {
     return;
   }

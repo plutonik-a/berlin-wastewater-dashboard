@@ -1,5 +1,19 @@
+/*!
+ * Berlin Wastewater Dashboard
+ * Copyright (c) 2025 Alexandra von Criegern
+ * Licensed under the ISC License.
+ */
+
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
+/**
+ * Draws the line chart in the SVG element using D3.js.
+ * Removes any existing content and plots new data.
+ * Adds interactive circles with tooltips showing date and value on hover.
+ * 
+ * @param {Array<{date: Date, value: number}>} data - The filtered data for the selected station.
+ * @param {Array} rawData - The full unfiltered dataset used for scaling the Y-axis globally.
+ */
 export function drawChart(data, rawData) {
   d3.select("svg").selectAll("*").remove();
 

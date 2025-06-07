@@ -1,6 +1,18 @@
+/*!
+ * Berlin Wastewater Dashboard
+ * Copyright (c) 2025 Alexandra von Criegern
+ * Licensed under the ISC License.
+ */
+
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 import { loadData, filterDataByStation, getStations } from "./dataLoader.js";
 import { drawChart } from "./chart.js";
 
+/**
+ * Main entry point: loads data from API, populates the station dropdown,
+ * sets up the change event handler on the dropdown to update the chart,
+ * and renders the initial chart for the first station.
+ */
 loadData().then(({ rawData }) => {
   const stations = getStations(rawData);
 
@@ -18,7 +30,6 @@ loadData().then(({ rawData }) => {
     drawChart(filtered, rawData);
   });
 
-  // initial chart
   const initialData = filterDataByStation(rawData, stations[0]);
   drawChart(initialData, rawData);
 });

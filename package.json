@@ -15,7 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "add-header": "node scripts/insert-header.js ."
+    "add-header": "node public/scripts/insert-header.js .",
+     "start": "node server.js"
   },
   "keywords": [
     "d3",
@@ -34,5 +35,8 @@
     "javascript",
     "epidemiology",
     "wastewater-epidemiology"
-  ]
+  ],
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
