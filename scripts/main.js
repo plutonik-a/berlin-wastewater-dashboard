@@ -5,7 +5,7 @@
  */
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-d3.json("./data.json").then(raw => {
+d3.json("./data/demo.json").then(raw => {
   const rawData = raw.body;
 
   const uniqueResults = new Set();
