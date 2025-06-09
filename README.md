@@ -30,21 +30,21 @@ Built with D3.js and a modular structure, it visualizes live data from a public 
 ## Setup
 
 1. Clone the repository  
-   ```bash
-   git clone https://github.com/plutonik-a/berlin-wastewater-dashboard.git
-   ```
-2.	Install dependencies:
-   ```bash
-   npm install
-   ```
+      ```bash
+      git clone https://github.com/plutonik-a/berlin-wastewater-dashboard.git
+      ```
+2. Install dependencies:
+      ```bash
+      npm install
+      ```
 3. Start the local Express server
-   ```bash
-   npm start
-   ```
-4.	Open your browser at
-   ```bash
-   http://localhost:3000
-   ```
+      ```bash
+      npm start
+      ```
+4. Open your browser at
+      ```bash
+      http://localhost:3000
+      ```
 
 ## Data Source
 
