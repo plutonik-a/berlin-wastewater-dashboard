@@ -2,8 +2,9 @@
 
 ## Project Description
 
-This project is a dashboard for visualizing SARS-CoV-2 and other potential pathogens in Berlin’s wastewater.  
-It serves as a demonstrator and a starting point for working with open API data, data visualization using D3.js, and interactive web applications.
+This dashboard visualizes SARS-CoV-2 levels in Berlin’s wastewater to support public health monitoring through open environmental data.
+
+Built with D3.js and a modular structure, it visualizes live data from a public API.
 
 ---
 
@@ -22,7 +23,7 @@ It serves as a demonstrator and a starting point for working with open API data,
 - D3.js (v7) for data visualization
 - HTML5 & CSS3
 - d3-fetch / Fetch API for data retrieval
-- Based on open data from the Berlin Hygiene Monitor
+- Based on open data from the [Berlin Hygiene Monitor](https://hygiene-monitor.de/dashboard/corona)
 
 ---
 
