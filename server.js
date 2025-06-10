@@ -20,9 +20,14 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static("public"));
 
 app.get("/api/data", (req, res) => {
-  const data = fs.readFileSync(path.join(__dirname, "data/demo.json"), "utf-8");
-  res.setHeader("Content-Type", "application/json");
-  res.send(data);
+  try{
+    const data = fs.readFileSync(path.join(__dirname, "data/data.json"), "utf-8");
+    res.setHeader("Content-Type", "application/json");
+    res.send(data);
+  } catch (error) {
+    console.error("Failed to load JSON:", error);
+    res.status(500).json({ error: "Failed to load data" });
+  }
 });
 
 app.listen(PORT, () => {

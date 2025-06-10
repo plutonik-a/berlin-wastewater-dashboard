@@ -8,7 +8,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 /**
  * Draws the line chart with enhanced tooltip and vertical focus line.
- * Supports both mouse and touch interactions for desktop and mobile usability.
+ * Supports both mouse and touch interactions.
  * @param {Array<{date: Date, value: number}>} data - Filtered data for selected station.
  * @param {Array} rawData - Full unfiltered dataset for global scaling.
  */
@@ -107,6 +107,7 @@ export function drawChart(data, rawData) {
   /**
    * Updates the tooltip and focus line position based on pointer event.
    * Dynamically repositions tooltip to ensure it stays fully visible within the viewport.
+   * Handles edge cases where closest data point may be undefined.
    * @param {Event} event - Mouse or touch event.
    */
   function updateTooltip(event) {
@@ -116,16 +117,33 @@ export function drawChart(data, rawData) {
     const i = bisectDate(data, x0, 1);
     const d0 = data[i - 1];
     const d1 = data[i];
-    let dClosest = d0;
-    if (d1 && (x0 - d0.date > d1.date - x0)) dClosest = d1;
 
-    // Update vertical focus line position
+    if (!d0 && !d1) {
+      focusLine.style("opacity", 0);
+      tooltip.style("opacity", 0);
+      return;
+    }
+
+    let dClosest;
+    if (!d0) {
+      dClosest = d1;
+    } else if (!d1) {
+      dClosest = d0;
+    } else {
+      dClosest = (x0 - d0.date > d1.date - x0) ? d1 : d0;
+    }
+
+    if (!dClosest || !dClosest.date) {
+      focusLine.style("opacity", 0);
+      tooltip.style("opacity", 0);
+      return;
+    }
+
     focusLine
       .attr("x1", x(dClosest.date))
       .attr("x2", x(dClosest.date))
       .style("opacity", 1);
 
-    // Update tooltip content
     tooltip
       .style("opacity", 1)
       .html(`
@@ -133,7 +151,6 @@ export function drawChart(data, rawData) {
         <strong>Value:</strong> ${dClosest.value.toFixed(2)}
       `);
 
-    // Calculate tooltip dimensions and viewport size
     const tooltipNode = tooltip.node();
     const tooltipWidth = tooltipNode.offsetWidth;
     const tooltipHeight = tooltipNode.offsetHeight;
@@ -141,29 +158,23 @@ export function drawChart(data, rawData) {
     const pageX = event.pageX;
     const pageY = event.pageY;
 
-    const padding = 10; // Padding from viewport edges
+    const padding = 10;
 
     const vw = window.innerWidth;
     const vh = window.innerHeight;
 
-    // Position tooltip horizontally: 
-    // right side if enough space, else left side
     let left = pageX + 15;
     if (left + tooltipWidth + padding > vw) {
       left = pageX - tooltipWidth - 15;
     }
     if (left < padding) left = padding;
-    
-    // Position tooltip vertically: 
-    // center on pointer, adjust to stay in viewport
-    // to avoid tooltip clipping
+
     let top = pageY - tooltipHeight / 2;
     if (top + tooltipHeight + padding > vh) {
       top = vh - tooltipHeight - padding;
     }
     if (top < padding) top = padding;
 
-    // Apply final tooltip position
     tooltip.style("left", left + "px")
            .style("top", top + "px");
   }

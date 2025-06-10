@@ -13,23 +13,30 @@ import { drawChart } from "./chart.js";
  * sets up the change event handler on the dropdown to update the chart,
  * and renders the initial chart for the first station.
  */
-loadData().then(({ rawData }) => {
-  const stations = getStations(rawData);
+loadData()
+  .then(({ rawData }) => {
+    //console.log("Example raw:", rawData[0]);
+    //console.log("API response:", rawData);
+    const stations = getStations(rawData);
 
-  const select = d3.select("#stationSelect");
-  select.selectAll("option")
-    .data(stations)
-    .enter()
-    .append("option")
-    .text(d => d)
-    .attr("value", d => d);
+    const select = d3.select("#stationSelect");
+    select.selectAll("option")
+      .data(stations)
+      .enter()
+      .append("option")
+      .text(d => d)
+      .attr("value", d => d);
 
-  select.on("change", event => {
-    const selectedStation = event.target.value;
-    const filtered = filterDataByStation(rawData, selectedStation);
-    drawChart(filtered, rawData);
+    select.on("change", event => {
+      const selectedStation = event.target.value;
+      const filtered = filterDataByStation(rawData, selectedStation);
+      drawChart(filtered, rawData);
+    });
+
+    const initialData = filterDataByStation(rawData, stations[0]);
+    drawChart(initialData, rawData);
+  })
+  .catch(error => {
+    console.error("Failed to load data:", error);
+    document.getElementById('error-message').textContent = "Failed to load data.";
   });
-
-  const initialData = filterDataByStation(rawData, stations[0]);
-  drawChart(initialData, rawData);
-});
