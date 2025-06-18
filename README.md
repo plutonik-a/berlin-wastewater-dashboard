@@ -1,5 +1,12 @@
 # Berlin Wastewater Dashboard
 
+> **Note**  
+> This JavaScript version is no longer actively maintained.  
+> Feel free to explore the improved TypeScript version here:  
+> [Berlin Wastewater Dashboard](https://github.com/plutonik-a/berlin-wastewater-dashboard-ts)
+
+---
+
 This dashboard visualizes SARS-CoV-2 levels in Berlin’s wastewater to support public health monitoring through open environmental data.
 
 Built with D3.js and a modular structure, it visualizes live data from a public API.
